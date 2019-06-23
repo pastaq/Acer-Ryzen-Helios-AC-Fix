@@ -1,7 +1,7 @@
 # amdgpu-powersave
 
 ## Purpose
-Acer Predator Helios 500 Ryzen edition notebooks do not detect the AC adapter as being plugged in, forcing the system into a low power state and robbing performance from the system. This workaround sets the GPU to increased clocks on login to improve performance. 
+Acer Predator Helios 500 Ryzen edition notebooks do not detect the AC adapter as being plugged in in Linux, forcing the system into a low power state and robbing performance from the system. This workaround sets the GPU to increased clocks on login to improve performance. 
 
 ## Installation
 
