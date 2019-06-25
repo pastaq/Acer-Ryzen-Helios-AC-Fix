@@ -1,5 +1,6 @@
 [Unit]
 Description=Toggle between Performance mode and Powersave mode for Acer Predator Helios 500 Ryzen Edition. 
+After=graphical.target
 
 [Service]
 Type=oneshot
@@ -9,4 +10,4 @@ ExecStop=/usr/local/sbin/gpu_powersave.sh
 StandardOutput=journal
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multiuser.target

@@ -29,9 +29,6 @@ sudo cp gpu_toggle.service /etc/systemd/system/
 
 ## Using the Service
 
-To have the system automatically start in performance mode:
-`sudo systemctl enable gpu_toggle`
-
 To manually enable performance mode:
 `sudo systemctl start gpu_toggle`
 
