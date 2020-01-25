@@ -1,4 +1,4 @@
-# AMDGPU AC Fix
+# Acer Ryzen Helios AC Fix
 
 ## Purpose
 Acer Predator Helios 500 Ryzen edition notebooks do not detect the AC adapter as being plugged in in Linux, forcing the system into a low power state and robbing performance from the system. This workaround diables the buggy power states on login to improve performance. 
