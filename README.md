@@ -22,16 +22,17 @@ Clone the repository
 
 ```
 cd <clone dir>
-`sudo ln acfix.sh /usr/local/sbin/`
-`sudo ln acfix.service /etc/systemd/system/`
+sudo ln acfix.sh /usr/local/sbin/
+sudo ln acfix.service /etc/systemd/system/
 ```
 
 ## Using the Service
 
 To enable the workaround:
-`sudo systemctl enable acfix`
-`reboot`
-
+```
+sudo systemctl enable acfix
+reboot
+```
 ## Disclaimer
 Any damage resulting from you running this service is your own damn fault. Leave me alone about it.
 
