@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable Performance mode in kernels >= 4.19 for Acer Predator Helios 500 Ryzen Edition. 
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/acfix.sh
+
+[Install]
+WantedBy=multi-user.target
