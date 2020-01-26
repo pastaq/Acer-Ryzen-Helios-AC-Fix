@@ -17,6 +17,8 @@ sudo update-grub
 reboot
 ```
 
+## Systemd
+
 ### Move the files to the required directories.
 Clone the repository
 
@@ -33,6 +35,7 @@ To enable the workaround:
 sudo systemctl enable acfix
 reboot
 ```
+
 ## Disclaimer
 Any damage resulting from you running this service is your own damn fault. Leave me alone about it.
 
